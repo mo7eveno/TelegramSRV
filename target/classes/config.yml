@@ -1,0 +1,9 @@
+chat_id: "not selected"
+token: "not selected"
+username_of_bot: "TgSRV_bot"
+minecraft_to_telegram:
+  enabled: true
+  format_message: "%luckperms_prefix%%player_name%: {message}" # there you can put PlaceHoldersApi. Dont use colors, because telegram is not support it. (I mean &4 and other)
+telegram_to_minecraft:
+  enabled: true
+  format_message: "&4{username}: &6{message}" # There you can put format message. {username} --> First name in telegram. {message} --> Text of message

@@ -1,0 +1,11 @@
+name: TelegramSRV
+version: '${project.version}'
+main: me.mo7eveno.TelegramSRV
+api-version: '1.16'
+website: about.h0rper.ru
+prefix: TelegramSRV
+depend: [PlaceholderAPI]
+commands:
+  telegramsrv:
+    usage: /<command>
+    description: TelegramSRV command
